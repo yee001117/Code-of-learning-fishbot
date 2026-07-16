@@ -1,0 +1,10 @@
+/home/zjz/chapt9/fishbot_ws/build/fishbot_bringup/CMakeFiles/uninstall.dir
+/home/zjz/chapt9/fishbot_ws/build/fishbot_bringup/CMakeFiles/fishbot_bringup_uninstall.dir
+/home/zjz/chapt9/fishbot_ws/build/fishbot_bringup/CMakeFiles/odom2tf.dir
+/home/zjz/chapt9/fishbot_ws/build/fishbot_bringup/CMakeFiles/test.dir
+/home/zjz/chapt9/fishbot_ws/build/fishbot_bringup/CMakeFiles/edit_cache.dir
+/home/zjz/chapt9/fishbot_ws/build/fishbot_bringup/CMakeFiles/rebuild_cache.dir
+/home/zjz/chapt9/fishbot_ws/build/fishbot_bringup/CMakeFiles/list_install_components.dir
+/home/zjz/chapt9/fishbot_ws/build/fishbot_bringup/CMakeFiles/install.dir
+/home/zjz/chapt9/fishbot_ws/build/fishbot_bringup/CMakeFiles/install/local.dir
+/home/zjz/chapt9/fishbot_ws/build/fishbot_bringup/CMakeFiles/install/strip.dir

@@ -1,0 +1,2 @@
+Invoking command in '/home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup -- -j32 -l32
+Invoked command in '/home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup -- -j32 -l32

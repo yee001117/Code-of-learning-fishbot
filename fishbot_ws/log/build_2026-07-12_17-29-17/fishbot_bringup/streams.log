@@ -1,0 +1,49 @@
+[0.009s] Invoking command in '/home/zjz/chapt9/fishbot_ws/build/fishbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zjz/chapt9/fishbot_ws/build/fishbot_bringup -- -j32 -l32
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/odom2tf.dir/src/odom2tf.cpp.o[0m
+[1.509s] [01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+[1.509s]    35 |     [01;31m[Ktransform[m[K.child_frame_id = msg->child_frame_id;
+[1.509s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.509s]       |     [32m[KTransformData[m[K
+[1.510s] [01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+[1.510s]    36 |     [01;31m[Ktransform[m[K.transform.translation.x = msg->pose.pose.position.x;
+[1.510s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.510s]       |     [32m[KTransformData[m[K
+[1.511s] [01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+[1.511s]    37 |     [01;31m[Ktransform[m[K.transform.translation.y = msg->pose.pose.position.y;
+[1.511s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.511s]       |     [32m[KTransformData[m[K
+[1.512s] [01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+[1.512s]    38 |     [01;31m[Ktransform[m[K.transform.translation.z = msg->pose.pose.position.z;
+[1.512s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.512s]       |     [32m[KTransformData[m[K
+[1.513s] [01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+[1.513s]    39 |     [01;31m[Ktransform[m[K.transform.rotation.x = msg->pose.pose.orientation.x;
+[1.513s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.513s]       |     [32m[KTransformData[m[K
+[1.513s] [01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+[1.513s]    40 |     [01;31m[Ktransform[m[K.transform.rotation.y = msg->pose.pose.orientation.y;
+[1.513s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.514s]       |     [32m[KTransformData[m[K
+[1.514s] [01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+[1.514s]    41 |     [01;31m[Ktransform[m[K.transform.rotation.z = msg->pose.pose.orientation.z;
+[1.514s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.514s]       |     [32m[KTransformData[m[K
+[1.515s] [01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+[1.515s]    42 |     [01;31m[Ktransform[m[K.transform.rotation.w = msg->pose.pose.orientation.w;
+[1.515s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.515s]       |     [32m[KTransformData[m[K
+[1.516s] [01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ does not name a type
+[1.516s]    44 |     [01;31m[Ktf_broadcaster_[m[K->sendTransform(transform);
+[1.516s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.524s] [01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:[m[K In member function ‘[01m[Kvoid OdomTopic2TF::odom_callback_(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.524s] [01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:23:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.524s]    23 | void odom_callback_([01;35m[Kconst nav_msgs::msg::Odometry::SharedPtr msg[m[K) {
+[1.524s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.524s] [01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:[m[K At global scope:
+[1.525s] [01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:46:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.525s]    46 | [01;31m[K}[m[K;
+[1.525s]       | [01;31m[K^[m[K
+[2.856s] gmake[2]: *** [CMakeFiles/odom2tf.dir/build.make:76: CMakeFiles/odom2tf.dir/src/odom2tf.cpp.o] Error 1
+[2.856s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odom2tf.dir/all] Error 2
+[2.856s] gmake: *** [Makefile:146: all] Error 2
+[2.857s] Invoked command in '/home/zjz/chapt9/fishbot_ws/build/fishbot_bringup' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zjz/chapt9/fishbot_ws/build/fishbot_bringup -- -j32 -l32

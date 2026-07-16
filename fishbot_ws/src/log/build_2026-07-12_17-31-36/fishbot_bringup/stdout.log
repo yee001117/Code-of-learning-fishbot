@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target odom2tf[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/odom2tf.dir/src/odom2tf.cpp.o[0m
+[100%] [32m[1mLinking CXX executable odom2tf[0m
+[100%] Built target odom2tf
+-- Install configuration: ""
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/lib/fishbot_bringup/odom2tf
+-- Set runtime path of "/home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/lib/fishbot_bringup/odom2tf" to ""
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/launch
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/launch/bringup.launch.py
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/launch/urdf2tf.launch.py
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/ament_index/resource_index/package_run_dependencies/fishbot_bringup
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/ament_index/resource_index/parent_prefix_path/fishbot_bringup
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/path.sh
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/path.dsv
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.bash
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.sh
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.zsh
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.dsv
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.dsv
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/ament_index/resource_index/packages/fishbot_bringup
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig.cmake
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig-version.cmake
+-- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.xml

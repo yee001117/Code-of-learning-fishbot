@@ -1,0 +1,6 @@
+Cloning into 'xrceagent'...
+fatal: unable to access 'https://github.com/eProsima/Micro-XRCE-DDS-Agent.git/': Could not resolve host: github.com
+Cloning into 'xrceagent'...
+gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:99: agent/src/xrceagent-stamp/xrceagent-download] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Interrupt
+gmake: *** [Makefile:91: all] Interrupt

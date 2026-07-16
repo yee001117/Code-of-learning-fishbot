@@ -1,0 +1,29 @@
+[0.017s] Invoking command in '/home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup -- -j32 -l32
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target odom2tf[0m
+[0.156s] [ 50%] [32mBuilding CXX object CMakeFiles/odom2tf.dir/src/odom2tf.cpp.o[0m
+[5.266s] [100%] [32m[1mLinking CXX executable odom2tf[0m
+[5.553s] [100%] Built target odom2tf
+[5.559s] Invoked command in '/home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup -- -j32 -l32
+[5.561s] Invoking command in '/home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup
+[5.565s] -- Install configuration: ""
+[5.565s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/lib/fishbot_bringup/odom2tf
+[5.567s] -- Set runtime path of "/home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/lib/fishbot_bringup/odom2tf" to ""
+[5.567s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/launch
+[5.567s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/launch/bringup.launch.py
+[5.568s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/launch/urdf2tf.launch.py
+[5.568s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/ament_index/resource_index/package_run_dependencies/fishbot_bringup
+[5.569s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/ament_index/resource_index/parent_prefix_path/fishbot_bringup
+[5.570s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.sh
+[5.570s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.dsv
+[5.570s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/path.sh
+[5.570s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/path.dsv
+[5.570s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.bash
+[5.570s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.sh
+[5.571s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.zsh
+[5.571s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.dsv
+[5.571s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.dsv
+[5.572s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/ament_index/resource_index/packages/fishbot_bringup
+[5.572s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig.cmake
+[5.572s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig-version.cmake
+[5.572s] -- Installing: /home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.xml
+[5.574s] Invoked command in '/home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup

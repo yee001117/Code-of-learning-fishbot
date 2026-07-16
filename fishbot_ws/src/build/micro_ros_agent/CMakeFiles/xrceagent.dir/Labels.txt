@@ -1,0 +1,13 @@
+# Target labels
+ xrceagent
+# Source files and their labels
+/home/zjz/chapt9/fishbot_ws/src/build/micro_ros_agent/CMakeFiles/xrceagent
+/home/zjz/chapt9/fishbot_ws/src/build/micro_ros_agent/CMakeFiles/xrceagent.rule
+/home/zjz/chapt9/fishbot_ws/src/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule
+/home/zjz/chapt9/fishbot_ws/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule
+/home/zjz/chapt9/fishbot_ws/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule
+/home/zjz/chapt9/fishbot_ws/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule
+/home/zjz/chapt9/fishbot_ws/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule
+/home/zjz/chapt9/fishbot_ws/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule
+/home/zjz/chapt9/fishbot_ws/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule
+/home/zjz/chapt9/fishbot_ws/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule

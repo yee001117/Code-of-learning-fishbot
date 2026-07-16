@@ -1,0 +1,16 @@
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/fishbot_description/urdf/fishbot.urdf
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/fishbot_description/environment/path.sh
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/fishbot_description/environment/path.dsv
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/fishbot_description/local_setup.bash
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/fishbot_description/local_setup.sh
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/fishbot_description/local_setup.zsh
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/fishbot_description/local_setup.dsv
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/fishbot_description/package.dsv
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+/home/zjz/chapt9/fishbot_ws/src/install/fishbot_description/share/fishbot_description/package.xml

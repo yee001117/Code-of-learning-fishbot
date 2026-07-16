@@ -1,0 +1,1 @@
+Invoking command in '/home/zjz/chapt9/fishbot_ws/src/build/ydlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/zjz/chapt9/fishbot_ws/src/install/ydlidar

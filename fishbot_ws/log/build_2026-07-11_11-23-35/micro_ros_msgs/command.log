@@ -1,0 +1,6 @@
+Invoking command in '/home/zjz/chapt9/fishbot_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zjz/chapt9/fishbot_ws/src/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/zjz/chapt9/fishbot_ws/install/micro_ros_msgs
+Invoked command in '/home/zjz/chapt9/fishbot_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zjz/chapt9/fishbot_ws/src/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/zjz/chapt9/fishbot_ws/install/micro_ros_msgs
+Invoking command in '/home/zjz/chapt9/fishbot_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zjz/chapt9/fishbot_ws/build/micro_ros_msgs -- -j32 -l32
+Invoked command in '/home/zjz/chapt9/fishbot_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zjz/chapt9/fishbot_ws/build/micro_ros_msgs -- -j32 -l32
+Invoking command in '/home/zjz/chapt9/fishbot_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zjz/chapt9/fishbot_ws/build/micro_ros_msgs
+Invoked command in '/home/zjz/chapt9/fishbot_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zjz/chapt9/fishbot_ws/build/micro_ros_msgs

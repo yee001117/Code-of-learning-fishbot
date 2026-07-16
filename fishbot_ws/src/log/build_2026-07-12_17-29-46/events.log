@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.000195] (-) JobUnselected: {'identifier': 'fishbot_description'}
+[0.000228] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.000250] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.000270] (-) JobUnselected: {'identifier': 'ros_serial2wifi'}
+[0.000488] (-) JobUnselected: {'identifier': 'ydlidar'}
+[0.000603] (fishbot_bringup) JobQueued: {'identifier': 'fishbot_bringup', 'dependencies': OrderedDict()}
+[0.000719] (fishbot_bringup) JobStarted: {'identifier': 'fishbot_bringup'}
+[0.004577] (fishbot_bringup) JobProgress: {'identifier': 'fishbot_bringup', 'progress': 'cmake'}
+[0.005324] (fishbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup', '-DCMAKE_INSTALL_PREFIX=/home/zjz/chapt9/fishbot_ws/src/install/fishbot_bringup'], 'cwd': '/home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zjz'), ('GIT_ASKPASS', '/home/zjz/.vscode-server/bin/fc3def6774c76082adf699d366f31a557ce5573f/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zjz'), ('OLDPWD', '/home/zjz/chapt9/fishbot_ws'), ('TERM_PROGRAM_VERSION', '1.128.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b13892d7-88f6-4d9f-9e0d-8d756e46579c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zjz/.vscode-server/bin/fc3def6774c76082adf699d366f31a557ce5573f/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zjz/.vscode-server/bin/fc3def6774c76082adf699d366f31a557ce5573f/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zjz/.vscode-server/extensions/ms-python.debugpy-2026.6.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zjz'), ('NAME', 'LAPTOP-IJ3GPNI2'), ('WSL_INTEROP', '/run/WSL/18462_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zjz/.vscode-server/bin/fc3def6774c76082adf699d366f31a557ce5573f/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Bandizip/:/mnt/c/windows/system32/downlevel:/mnt/c/Program Files/dotnet/:/mnt/d/TianGong 2025 Personal/Program/TGIop/code/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/win64:/mnt/c/Users/Lenovo/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/zjz/.vscode-server/extensions/ms-python.debugpy-2026.6.0/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zjz/.vscode-server/extensions/ms-python.debugpy-2026.6.0/.noConfigDebugAdapterEndpoints/endpoint-191c98c3c3a00873.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/zjz/.vscode-server/data/User/workspaceStorage/f5ab967cae6cfd7ca07a5af8ed67cb88/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a550b763ff.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.087669] (fishbot_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099561] (-) TimerEvent: {}
+[0.199804] (-) TimerEvent: {}
+[0.271653] (fishbot_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.299934] (-) TimerEvent: {}
+[0.395342] (fishbot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400025] (-) TimerEvent: {}
+[0.467605] (fishbot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.471274] (fishbot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.471648] (fishbot_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.472099] (fishbot_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.474277] (fishbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500179] (-) TimerEvent: {}
+[0.541637] (fishbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.545243] (fishbot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.545446] (fishbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.545733] (fishbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.550636] (fishbot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600304] (-) TimerEvent: {}
+[0.629390] (fishbot_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.689455] (fishbot_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700433] (-) TimerEvent: {}
+[0.734725] (fishbot_bringup) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.800539] (-) TimerEvent: {}
+[0.830453] (fishbot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.834110] (fishbot_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.841299] (fishbot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.851972] (fishbot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.866951] (fishbot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900640] (-) TimerEvent: {}
+[0.908535] (fishbot_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.911184] (fishbot_bringup) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.000741] (-) TimerEvent: {}
+[1.101007] (-) TimerEvent: {}
+[1.201269] (-) TimerEvent: {}
+[1.301534] (-) TimerEvent: {}
+[1.401787] (-) TimerEvent: {}
+[1.426196] (fishbot_bringup) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.501936] (-) TimerEvent: {}
+[1.602189] (-) TimerEvent: {}
+[1.702441] (-) TimerEvent: {}
+[1.802752] (-) TimerEvent: {}
+[1.902996] (-) TimerEvent: {}
+[1.963356] (fishbot_bringup) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.003134] (-) TimerEvent: {}
+[2.103397] (-) TimerEvent: {}
+[2.203690] (-) TimerEvent: {}
+[2.303957] (-) TimerEvent: {}
+[2.404217] (-) TimerEvent: {}
+[2.504504] (-) TimerEvent: {}
+[2.604750] (-) TimerEvent: {}
+[2.704995] (-) TimerEvent: {}
+[2.805282] (-) TimerEvent: {}
+[2.905526] (-) TimerEvent: {}
+[3.008284] (-) TimerEvent: {}
+[3.086393] (fishbot_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.094426] (fishbot_bringup) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.108371] (-) TimerEvent: {}
+[3.167517] (fishbot_bringup) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.168038] (fishbot_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.208476] (-) TimerEvent: {}
+[3.232264] (fishbot_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.232914] (fishbot_bringup) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.275710] (fishbot_bringup) StdoutLine: {'line': b'-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.295678] (fishbot_bringup) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[3.308708] (-) TimerEvent: {}
+[3.365670] (fishbot_bringup) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.382797] (fishbot_bringup) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.382940] (fishbot_bringup) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.382969] (fishbot_bringup) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.383363] (fishbot_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.383878] (fishbot_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.384371] (fishbot_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.385029] (fishbot_bringup) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.385081] (fishbot_bringup) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.385458] (fishbot_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.386683] (fishbot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.393516] (fishbot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[3.395921] (fishbot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup\n'}
+[3.401124] (fishbot_bringup) CommandEnded: {'returncode': 0}
+[3.402229] (fishbot_bringup) JobProgress: {'identifier': 'fishbot_bringup', 'progress': 'build'}
+[3.402266] (fishbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup', '--', '-j32', '-l32'], 'cwd': '/home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zjz'), ('GIT_ASKPASS', '/home/zjz/.vscode-server/bin/fc3def6774c76082adf699d366f31a557ce5573f/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zjz'), ('OLDPWD', '/home/zjz/chapt9/fishbot_ws'), ('TERM_PROGRAM_VERSION', '1.128.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b13892d7-88f6-4d9f-9e0d-8d756e46579c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zjz/.vscode-server/bin/fc3def6774c76082adf699d366f31a557ce5573f/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zjz/.vscode-server/bin/fc3def6774c76082adf699d366f31a557ce5573f/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zjz/.vscode-server/extensions/ms-python.debugpy-2026.6.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zjz'), ('NAME', 'LAPTOP-IJ3GPNI2'), ('WSL_INTEROP', '/run/WSL/18462_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zjz/.vscode-server/bin/fc3def6774c76082adf699d366f31a557ce5573f/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Bandizip/:/mnt/c/windows/system32/downlevel:/mnt/c/Program Files/dotnet/:/mnt/d/TianGong 2025 Personal/Program/TGIop/code/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/win64:/mnt/c/Users/Lenovo/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/zjz/.vscode-server/extensions/ms-python.debugpy-2026.6.0/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zjz/.vscode-server/extensions/ms-python.debugpy-2026.6.0/.noConfigDebugAdapterEndpoints/endpoint-191c98c3c3a00873.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/zjz/.vscode-server/data/User/workspaceStorage/f5ab967cae6cfd7ca07a5af8ed67cb88/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a550b763ff.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zjz/chapt9/fishbot_ws/src/build/fishbot_bringup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.408841] (-) TimerEvent: {}
+[3.426241] (fishbot_bringup) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/odom2tf.dir/src/odom2tf.cpp.o\x1b[0m\n'}
+[3.508950] (-) TimerEvent: {}
+[3.609275] (-) TimerEvent: {}
+[3.709624] (-) TimerEvent: {}
+[3.810021] (-) TimerEvent: {}
+[3.910294] (-) TimerEvent: {}
+[4.010676] (-) TimerEvent: {}
+[4.111052] (-) TimerEvent: {}
+[4.211479] (-) TimerEvent: {}
+[4.311794] (-) TimerEvent: {}
+[4.412086] (-) TimerEvent: {}
+[4.512464] (-) TimerEvent: {}
+[4.612810] (-) TimerEvent: {}
+[4.713134] (-) TimerEvent: {}
+[4.738579] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:35:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KTransformData\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.738753] (fishbot_bringup) StderrLine: {'line': b'   35 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K.child_frame_id = msg->child_frame_id;\n'}
+[4.738799] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.738826] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[32m\x1b[KTransformData\x1b[m\x1b[K\n'}
+[4.739278] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:36:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KTransformData\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.739348] (fishbot_bringup) StderrLine: {'line': b'   36 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K.transform.translation.x = msg->pose.pose.position.x;\n'}
+[4.739377] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.739399] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[32m\x1b[KTransformData\x1b[m\x1b[K\n'}
+[4.740061] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:37:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KTransformData\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.740178] (fishbot_bringup) StderrLine: {'line': b'   37 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K.transform.translation.y = msg->pose.pose.position.y;\n'}
+[4.740215] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.740240] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[32m\x1b[KTransformData\x1b[m\x1b[K\n'}
+[4.741083] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:38:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KTransformData\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.741207] (fishbot_bringup) StderrLine: {'line': b'   38 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K.transform.translation.z = msg->pose.pose.position.z;\n'}
+[4.741266] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.741311] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[32m\x1b[KTransformData\x1b[m\x1b[K\n'}
+[4.741849] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:39:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KTransformData\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.741929] (fishbot_bringup) StderrLine: {'line': b'   39 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K.transform.rotation.x = msg->pose.pose.orientation.x;\n'}
+[4.741973] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.741999] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[32m\x1b[KTransformData\x1b[m\x1b[K\n'}
+[4.742681] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:40:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KTransformData\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.742725] (fishbot_bringup) StderrLine: {'line': b'   40 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K.transform.rotation.y = msg->pose.pose.orientation.y;\n'}
+[4.742755] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.742779] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[32m\x1b[KTransformData\x1b[m\x1b[K\n'}
+[4.743574] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:41:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KTransformData\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.743661] (fishbot_bringup) StderrLine: {'line': b'   41 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K.transform.rotation.z = msg->pose.pose.orientation.z;\n'}
+[4.743692] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.743717] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[32m\x1b[KTransformData\x1b[m\x1b[K\n'}
+[4.744468] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:42:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KTransformData\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.744541] (fishbot_bringup) StderrLine: {'line': b'   42 |     \x1b[01;31m\x1b[Ktransform\x1b[m\x1b[K.transform.rotation.w = msg->pose.pose.orientation.w;\n'}
+[4.744586] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.744612] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[32m\x1b[KTransformData\x1b[m\x1b[K\n'}
+[4.745734] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:44:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf_broadcaster_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.745815] (fishbot_bringup) StderrLine: {'line': b'   44 |     \x1b[01;31m\x1b[Ktf_broadcaster_\x1b[m\x1b[K->sendTransform(transform);\n'}
+[4.745858] (fishbot_bringup) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.752297] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OdomTopic2TF::odom_callback_(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.752377] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:23:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.752423] (fishbot_bringup) StderrLine: {'line': b'   23 | void odom_callback_(\x1b[01;35m\x1b[Kconst nav_msgs::msg::Odometry::SharedPtr msg\x1b[m\x1b[K) {\n'}
+[4.752457] (fishbot_bringup) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.752483] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.752507] (fishbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:46:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.752533] (fishbot_bringup) StderrLine: {'line': b'   46 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[4.752557] (fishbot_bringup) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.813462] (-) TimerEvent: {}
+[4.913882] (-) TimerEvent: {}
+[5.014277] (-) TimerEvent: {}
+[5.114586] (-) TimerEvent: {}
+[5.215006] (-) TimerEvent: {}
+[5.315395] (-) TimerEvent: {}
+[5.415693] (-) TimerEvent: {}
+[5.515974] (-) TimerEvent: {}
+[5.616343] (-) TimerEvent: {}
+[5.716683] (-) TimerEvent: {}
+[5.817137] (-) TimerEvent: {}
+[5.917416] (-) TimerEvent: {}
+[6.017748] (-) TimerEvent: {}
+[6.076410] (fishbot_bringup) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/odom2tf.dir/build.make:76: CMakeFiles/odom2tf.dir/src/odom2tf.cpp.o] Error 1\n'}
+[6.076664] (fishbot_bringup) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odom2tf.dir/all] Error 2\n'}
+[6.076757] (fishbot_bringup) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.078037] (fishbot_bringup) CommandEnded: {'returncode': 2}
+[6.082964] (fishbot_bringup) JobEnded: {'identifier': 'fishbot_bringup', 'rc': 2}
+[6.093357] (-) EventReactorShutdown: {}

@@ -1,0 +1,204 @@
+[0.150s] Invoking command in '/home/zjz/chapt9/fishbot_ws/build/ydlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zjz/chapt9/fishbot_ws/build/ydlidar -- -j32 -l32
+[0.179s] [  8%] Built target ydlidar_client
+[0.182s] [ 12%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o[0m
+[0.398s] In file included from [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/v8stdint.h:142[m[K,
+[0.399s]                  from [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:4[m[K,
+[0.399s]                  from [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/src/CYdLidar.h:48[m[K,
+[0.399s]                  from [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:16[m[K:
+[0.399s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:[m[K In function ‘[01m[Kbool ydlidar::core::base::fileExists(const string&)[m[K’:
+[0.399s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.399s]   183 |   struct stat info = {0[01;35m[K}[m[K;
+[0.399s]       |                        [01;35m[K^[m[K
+[0.399s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.399s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.399s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.399s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.399s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.399s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.399s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.399s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.399s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.399s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.399s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.399s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.400s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.400s] In file included from [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:5[m[K,
+[0.400s]                  from [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/src/CYdLidar.h:48[m[K,
+[0.400s]                  from [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:16[m[K:
+[0.400s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:[m[K In static member function ‘[01m[Kstatic ydlidar::core::base::Thread ydlidar::core::base::Thread::createThread(thread_proc_t, void*)[m[K’:
+[0.400s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:54:42:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[0.400s]    54 |                                    NULL, [01;35m[K(void *(*)(void *))proc[m[K,
+[0.400s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.400s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[0.400s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:135:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[0.400s]   135 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d]\n", [32m[K_handle[m[K, s);
+[0.400s]       |                                             [01;35m[K~^[m[K                          [32m[K~~~~~~~[m[K
+[0.400s]       |                                              [01;35m[K|[m[K                          [32m[K|[m[K
+[0.400s]       |                                              [01;35m[Kunsigned int[m[K               [32m[K_size_t {aka long unsigned int}[m[K
+[0.400s]       |                                             [32m[K%lX[m[K
+[0.400s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:137:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[0.400s]   137 |           printf("[YDLIDAR DEBUG] Thread [0x[01;35m[K%X[m[K] ready to cancel[%d] time[%u]\n",
+[0.400s]       |                                             [01;35m[K~^[m[K
+[0.400s]       |                                              [01;35m[K|[m[K
+[0.400s]       |                                              [01;35m[Kunsigned int[m[K
+[0.400s]       |                                             [32m[K%lX[m[K
+[0.400s]   138 |             [32m[K_handle[m[K, s, getms() - t);
+[0.400s]       |             [32m[K~~~~~~~[m[K                           
+[0.400s]       |             [32m[K|[m[K
+[0.400s]       |             [32m[K_size_t {aka long unsigned int}[m[K
+[0.400s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:141:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[0.400s]   141 |             printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled in other thread\n", [32m[K_handle[m[K);
+[0.400s]       |                                         [01;35m[K~^[m[K                                        [32m[K~~~~~~~[m[K
+[0.401s]       |                                          [01;35m[K|[m[K                                        [32m[K|[m[K
+[0.401s]       |                                          [01;35m[Kunsigned int[m[K                             [32m[K_size_t {aka long unsigned int}[m[K
+[0.401s]       |                                         [32m[K%lX[m[K
+[0.401s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:146:74:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[0.401s]   146 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x[01;35m[K%X[m[K] cancelled!\n", [32m[K_handle[m[K);
+[0.401s]       |                                                                         [01;35m[K~^[m[K                 [32m[K~~~~~~~[m[K
+[0.401s]       |                                                                          [01;35m[K|[m[K                 [32m[K|[m[K
+[0.401s]       |                                                                          [01;35m[Kunsigned int[m[K      [32m[K_size_t {aka long unsigned int}[m[K
+[0.401s]       |                                                                         [32m[K%lX[m[K
+[0.401s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:150:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[0.401s]   150 |           printf("[YDLIDAR] Thread [0x[01;35m[K%X[m[K] has been canceled\n", [32m[K_handle[m[K);
+[0.401s]       |                                       [01;35m[K~^[m[K                        [32m[K~~~~~~~[m[K
+[0.401s]       |                                        [01;35m[K|[m[K                        [32m[K|[m[K
+[0.401s]       |                                        [01;35m[Kunsigned int[m[K             [32m[K_size_t {aka long unsigned int}[m[K
+[0.401s]       |                                       [32m[K%lX[m[K
+[0.453s] In file included from [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:8[m[K,
+[0.453s]                  from [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/src/CYdLidar.h:48[m[K,
+[0.453s]                  from [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:16[m[K:
+[0.453s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/ydlidar_protocol.h:[m[K At global scope:
+[0.453s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/ydlidar_protocol.h:291:22:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kdevice_info::firmware_version[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.453s]   291 |   device_info di = {0[01;35m[K}[m[K;
+[0.453s]       |                      [01;35m[K^[m[K
+[0.453s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/ydlidar_protocol.h:291:22:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kdevice_info::hardware_version[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.453s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/ydlidar_protocol.h:291:22:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kdevice_info::serialnum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[0.458s] In file included from [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/src/CYdLidar.h:48[m[K,
+[0.458s]                  from [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:16[m[K:
+[0.458s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual bool ydlidar::core::common::DriverInterface::getDeviceInfoEx(device_info&, int)[m[K’:
+[0.458s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:285:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktype[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.458s]   285 |         virtual bool getDeviceInfoEx(device_info &di, [01;35m[Kint type=EPT_Module[m[K)
+[0.458s]       |                                                       [01;35m[K~~~~^~~~~~~~~~~~~~~[m[K
+[0.458s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::getScanFrequency(scan_frequency&, uint32_t)[m[K’:
+[0.458s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:340:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrequency[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.458s]   340 |         virtual result_t getScanFrequency([01;35m[Kscan_frequency &frequency[m[K,
+[0.458s]       |                                           [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[0.458s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:341:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.458s]   341 |                                           [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[0.458s]       |                                           [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.458s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyAdd(scan_frequency&, uint32_t)[m[K’:
+[0.458s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:355:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrequency[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.458s]   355 |         virtual result_t setScanFrequencyAdd([01;35m[Kscan_frequency &frequency[m[K,
+[0.458s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[0.458s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:356:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.458s]   356 |                                              [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[0.458s]       |                                              [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.458s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyDis(scan_frequency&, uint32_t)[m[K’:
+[0.458s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:370:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrequency[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.458s]   370 |         virtual result_t setScanFrequencyDis([01;35m[Kscan_frequency &frequency[m[K,
+[0.458s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[0.458s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:371:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.458s]   371 |                                              [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[0.458s]       |                                              [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.458s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyAddMic(scan_frequency&, uint32_t)[m[K’:
+[0.458s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:385:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrequency[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.459s]   385 |         virtual result_t setScanFrequencyAddMic([01;35m[Kscan_frequency &frequency[m[K,
+[0.459s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[0.459s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:386:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.459s]   386 |                                                 [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[0.459s]       |                                                 [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.459s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyDisMic(scan_frequency&, uint32_t)[m[K’:
+[0.459s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:400:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrequency[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.459s]   400 |         virtual result_t setScanFrequencyDisMic([01;35m[Kscan_frequency &frequency[m[K,
+[0.459s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[0.459s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:401:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.459s]   401 |                                                 [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[0.459s]       |                                                 [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.459s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::getSamplingRate(sampling_rate&, uint32_t)[m[K’:
+[0.459s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:415:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.459s]   415 |         virtual result_t getSamplingRate([01;35m[Ksampling_rate &rate[m[K,
+[0.459s]       |                                          [01;35m[K~~~~~~~~~~~~~~~^~~~[m[K
+[0.459s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:416:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.459s]   416 |                                          [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[0.459s]       |                                          [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.459s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setSamplingRate(sampling_rate&, uint32_t)[m[K’:
+[0.459s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:430:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.459s]   430 |         virtual result_t setSamplingRate([01;35m[Ksampling_rate &rate[m[K,
+[0.459s]       |                                          [01;35m[K~~~~~~~~~~~~~~~^~~~[m[K
+[0.459s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:431:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.459s]   431 |                                          [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[0.459s]       |                                          [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.459s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::getZeroOffsetAngle(offset_angle&, uint32_t)[m[K’:
+[0.459s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:445:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.459s]   445 |         virtual result_t getZeroOffsetAngle([01;35m[Koffset_angle &angle[m[K,
+[0.459s]       |                                             [01;35m[K~~~~~~~~~~~~~~^~~~~[m[K
+[0.459s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:446:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.459s]   446 |                                             [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[0.459s]       |                                             [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.459s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setScanHeartbeat(scan_heart_beat&, uint32_t)[m[K’:
+[0.459s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:461:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbeat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.459s]   461 |         virtual result_t setScanHeartbeat([01;35m[Kscan_heart_beat &beat[m[K,
+[0.459s]       |                                           [01;35m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+[0.460s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:462:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.460s]   462 |                                           [01;35m[Kuint32_t timeout = DEFAULT_TIMEOUT[m[K)
+[0.460s]       |                                           [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.460s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setWorkMode(int, uint8_t)[m[K’:
+[0.460s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:493:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.460s]   493 |         virtual result_t setWorkMode([01;35m[Kint mode = 0[m[K, uint8_t addr = 0x00) {
+[0.460s]       |                                      [01;35m[K~~~~^~~~~~~~[m[K
+[0.460s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:493:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kaddr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.460s]   493 |         virtual result_t setWorkMode(int mode = 0, [01;35m[Kuint8_t addr = 0x00[m[K) {
+[0.460s]       |                                                    [01;35m[K~~~~~~~~^~~~~~~~~~~[m[K
+[1.519s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:[m[K In lambda function:
+[1.519s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:169:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.519s]   169 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[1.519s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.519s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:170:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.519s]   170 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[1.519s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.519s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:171:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.519s]   171 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[1.519s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.528s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:[m[K In lambda function:
+[1.528s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:179:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.528s]   179 |     [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[1.528s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.528s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:180:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.528s]   180 |   [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[1.528s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.528s] [01m[K/home/zjz/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:181:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.528s]   181 |   [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[1.528s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.145s] [ 16%] [32m[1mLinking CXX executable ydlidar_node[0m
+[3.392s] [100%] Built target ydlidar_node
+[3.397s] Invoked command in '/home/zjz/chapt9/fishbot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zjz/chapt9/fishbot_ws/build/ydlidar -- -j32 -l32
+[3.399s] Invoking command in '/home/zjz/chapt9/fishbot_ws/build/ydlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zjz/chapt9/fishbot_ws/build/ydlidar
+[3.402s] -- Install configuration: ""
+[3.403s] -- Installing: /home/zjz/chapt9/fishbot_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+[3.404s] -- Set runtime path of "/home/zjz/chapt9/fishbot_ws/install/ydlidar/lib/ydlidar/ydlidar_node" to ""
+[3.405s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+[3.405s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/launch
+[3.405s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py
+[3.405s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+[3.405s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/params
+[3.405s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+[3.405s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/startup
+[3.405s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+[3.405s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/config
+[3.405s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/config/ydlidar.rviz
+[3.405s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+[3.405s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+[3.405s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+[3.405s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+[3.405s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/environment/path.sh
+[3.406s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+[3.406s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.bash
+[3.406s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.sh
+[3.406s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+[3.406s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+[3.406s] -- Installing: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/package.dsv
+[3.406s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+[3.406s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+[3.406s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+[3.406s] -- Up-to-date: /home/zjz/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/package.xml
+[3.410s] Invoked command in '/home/zjz/chapt9/fishbot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zjz/chapt9/fishbot_ws/build/ydlidar

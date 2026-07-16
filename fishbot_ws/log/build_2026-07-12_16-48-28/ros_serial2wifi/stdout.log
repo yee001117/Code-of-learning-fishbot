@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/ros_serial2wifi/ros_serial2wifi.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros_serial2wifi/ros_serial2wifi.egg-info/dependency_links.txt
+writing entry points to ../../build/ros_serial2wifi/ros_serial2wifi.egg-info/entry_points.txt
+writing requirements to ../../build/ros_serial2wifi/ros_serial2wifi.egg-info/requires.txt
+writing top-level names to ../../build/ros_serial2wifi/ros_serial2wifi.egg-info/top_level.txt
+reading manifest file '../../build/ros_serial2wifi/ros_serial2wifi.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros_serial2wifi/ros_serial2wifi.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zjz/chapt9/fishbot_ws/build/ros_serial2wifi/build/lib/ros_serail2wifi
+copying ros_serail2wifi/__init__.py -> /home/zjz/chapt9/fishbot_ws/build/ros_serial2wifi/build/lib/ros_serail2wifi
+copying ros_serail2wifi/udpserver.py -> /home/zjz/chapt9/fishbot_ws/build/ros_serial2wifi/build/lib/ros_serail2wifi
+copying ros_serail2wifi/tcpserver.py -> /home/zjz/chapt9/fishbot_ws/build/ros_serial2wifi/build/lib/ros_serail2wifi
+running install
+running install_lib
+creating /home/zjz/chapt9/fishbot_ws/install/ros_serial2wifi/lib/python3.10/site-packages/ros_serail2wifi
+copying /home/zjz/chapt9/fishbot_ws/build/ros_serial2wifi/build/lib/ros_serail2wifi/__init__.py -> /home/zjz/chapt9/fishbot_ws/install/ros_serial2wifi/lib/python3.10/site-packages/ros_serail2wifi
+copying /home/zjz/chapt9/fishbot_ws/build/ros_serial2wifi/build/lib/ros_serail2wifi/udpserver.py -> /home/zjz/chapt9/fishbot_ws/install/ros_serial2wifi/lib/python3.10/site-packages/ros_serail2wifi
+copying /home/zjz/chapt9/fishbot_ws/build/ros_serial2wifi/build/lib/ros_serail2wifi/tcpserver.py -> /home/zjz/chapt9/fishbot_ws/install/ros_serial2wifi/lib/python3.10/site-packages/ros_serail2wifi
+byte-compiling /home/zjz/chapt9/fishbot_ws/install/ros_serial2wifi/lib/python3.10/site-packages/ros_serail2wifi/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/zjz/chapt9/fishbot_ws/install/ros_serial2wifi/lib/python3.10/site-packages/ros_serail2wifi/udpserver.py to udpserver.cpython-310.pyc
+byte-compiling /home/zjz/chapt9/fishbot_ws/install/ros_serial2wifi/lib/python3.10/site-packages/ros_serail2wifi/tcpserver.py to tcpserver.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/zjz/chapt9/fishbot_ws/install/ros_serial2wifi/lib/python3.10/site-packages/ros_serial2wifi-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ros_serial2wifi/ros_serial2wifi.egg-info to /home/zjz/chapt9/fishbot_ws/install/ros_serial2wifi/lib/python3.10/site-packages/ros_serial2wifi-0.0.0-py3.10.egg-info
+running install_scripts
+Installing tcp_server script to /home/zjz/chapt9/fishbot_ws/install/ros_serial2wifi/lib/ros_serial2wifi
+Installing udp_server script to /home/zjz/chapt9/fishbot_ws/install/ros_serial2wifi/lib/ros_serial2wifi
+writing list of installed files to '/home/zjz/chapt9/fishbot_ws/build/ros_serial2wifi/install.log'

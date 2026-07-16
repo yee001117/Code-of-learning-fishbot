@@ -1,0 +1,46 @@
+[01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+   35 |     [01;31m[Ktransform[m[K.child_frame_id = msg->child_frame_id;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[KTransformData[m[K
+[01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+   36 |     [01;31m[Ktransform[m[K.transform.translation.x = msg->pose.pose.position.x;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[KTransformData[m[K
+[01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+   37 |     [01;31m[Ktransform[m[K.transform.translation.y = msg->pose.pose.position.y;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[KTransformData[m[K
+[01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+   38 |     [01;31m[Ktransform[m[K.transform.translation.z = msg->pose.pose.position.z;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[KTransformData[m[K
+[01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+   39 |     [01;31m[Ktransform[m[K.transform.rotation.x = msg->pose.pose.orientation.x;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[KTransformData[m[K
+[01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+   40 |     [01;31m[Ktransform[m[K.transform.rotation.y = msg->pose.pose.orientation.y;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[KTransformData[m[K
+[01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+   41 |     [01;31m[Ktransform[m[K.transform.rotation.z = msg->pose.pose.orientation.z;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[KTransformData[m[K
+[01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ does not name a type; did you mean ‘[01m[KTransformData[m[K’?
+   42 |     [01;31m[Ktransform[m[K.transform.rotation.w = msg->pose.pose.orientation.w;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[KTransformData[m[K
+[01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ does not name a type
+   44 |     [01;31m[Ktf_broadcaster_[m[K->sendTransform(transform);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:[m[K In member function ‘[01m[Kvoid OdomTopic2TF::odom_callback_(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:23:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   23 | void odom_callback_([01;35m[Kconst nav_msgs::msg::Odometry::SharedPtr msg[m[K) {
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:[m[K At global scope:
+[01m[K/home/zjz/chapt9/fishbot_ws/src/fishbot_bringup/src/odom2tf.cpp:46:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   46 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/odom2tf.dir/build.make:76: CMakeFiles/odom2tf.dir/src/odom2tf.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odom2tf.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
