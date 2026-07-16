@@ -1,0 +1,139 @@
+#include <Arduino.h>
+#include <Esp32PcntEncoder.h>
+#include <Esp32McpwmMotor.h>
+#include "PidController.h"
+
+// ---------- 引脚定义 ----------
+#define MOTOR0_PWM_A 22
+#define MOTOR0_PWM_B 23
+#define MOTOR1_PWM_A 12
+#define MOTOR1_PWM_B 13
+#define ENC0_A 32
+#define ENC0_B 33
+#define ENC1_A 26
+#define ENC1_B 25
+
+// ---------- 速度系数 ----------
+const float speed_coeff[2] = {141.710f, 103.237f};
+
+// ---------- 方向修正 ----------
+const int direction[2] = {1, 1};
+
+// ---------- 目标速度 (mm/s) ----------
+const float target_speed[2] = {100.0f, 100.0f};
+
+// ---------- 前馈占空比 (根据开环校准：50%→124，故100→40.3，取42) ----------
+float feedforward[2] = {42.0f, 45.0f};
+
+// ---------- PID 参数 ----------
+float pid_kp[2] = {0.25f, 0.6f};      // 电机0 适度比例
+float pid_ki[2] = {0.03f, 0.05f};      // 电机0 稍强积分以快速消除静差
+float pid_kd[2] = {0.0f, 0.0f};
+
+// ---------- 低通滤波 ----------
+const float alpha[2] = {0.5f, 0.5f};
+
+// ---------- PID 输出限幅 ----------
+const float out_limit[2][2] = {{-15.0f, 15.0f}, {-40.0f, 40.0f}}; // 电机0 对称限幅
+const float integral_limit[2] = {400.0f, 600.0f};
+
+// ---------- 死区跨越助力（按需开启） ----------
+const bool use_stall_boost = false;   // 暂不使用，先观察自由调节效果
+
+Esp32PcntEncoder encoders[2];
+Esp32McpwmMotor motor;
+PidController pid[2];
+
+int64_t last_ticks[2] = {0, 0};
+float filtered_speed[2] = {0.0f, 0.0f};
+uint32_t last_update_time = 0;
+
+void motorSpeedControl()
+{
+    uint32_t now = millis();
+    uint32_t dt_ms = now - last_update_time;
+    if (dt_ms == 0) return;
+    float dt = dt_ms / 1000.0f;
+
+    for (int i = 0; i < 2; i++)
+    {
+        int64_t cur_ticks = encoders[i].getTicks();
+        int64_t delta = cur_ticks - last_ticks[i];
+        last_ticks[i] = cur_ticks;
+
+        float raw_speed = (delta * speed_coeff[i]) / dt_ms * direction[i];
+        filtered_speed[i] = alpha[i] * raw_speed + (1.0f - alpha[i]) * filtered_speed[i];
+
+        float error = target_speed[i] - filtered_speed[i];
+
+        // 可选积分分离（如果振荡仍存，可启用）
+        // float active_ki = (fabs(error) > 25.0f) ? 0.0f : pid_ki[i];
+        // pid[i].update_pid(pid_kp[i], active_ki, pid_kd[i]);
+
+        float pid_out = pid[i].update(filtered_speed[i], dt);
+
+        // 占空比合成
+        float duty = feedforward[i] + pid_out;
+
+        // 全局限幅（无下限！）
+        if (duty > 100.0f) duty = 100.0f;
+        if (duty < 0.0f)   duty = 0.0f;    // 只设安全下限 0，防止负值
+
+        motor.updateMotorSpeed(i, duty);
+
+        // 调试输出
+        if (i == 0)
+        {
+            static uint32_t last_debug = 0;
+            if (now - last_debug >= 200)
+            {
+                last_debug = now;
+                Serial.printf("M0: err=%.2f, sum=%.2f, out=%.2f, duty=%.2f\n",
+                              pid[0].getError(), pid[0].getIntegral(), pid_out, duty);
+            }
+        }
+    }
+    last_update_time = now;
+}
+
+void setup()
+{
+    Serial.begin(115200);
+    delay(1000);
+    Serial.println("--- No‑limit Controller ---");
+
+    motor.attachMotor(0, MOTOR0_PWM_A, MOTOR0_PWM_B);
+    motor.attachMotor(1, MOTOR1_PWM_A, MOTOR1_PWM_B);
+    encoders[0].init(0, ENC0_A, ENC0_B);
+    encoders[1].init(1, ENC1_A, ENC1_B);
+
+    for (int i = 0; i < 2; i++)
+    {
+        pid[i].update_pid(pid_kp[i], pid_ki[i], pid_kd[i]);
+        pid[i].out_limit(out_limit[i][0], out_limit[i][1]);
+        pid[i].set_integral_limit(integral_limit[i]);
+        pid[i].update_target(target_speed[i]);
+    }
+
+    last_update_time = millis();
+    last_ticks[0] = encoders[0].getTicks();
+    last_ticks[1] = encoders[1].getTicks();
+}
+
+void loop()
+{
+    static uint32_t prev_control = 0;
+    uint32_t now = millis();
+    if (now - prev_control >= 10)
+    {
+        prev_control = now;
+        motorSpeedControl();
+    }
+
+    static uint32_t prev_print = 0;
+    if (now - prev_print >= 200)
+    {
+        prev_print = now;
+        Serial.printf("Speed0: %.2f, Speed1: %.2f mm/s\n", filtered_speed[0], filtered_speed[1]);
+    }
+}
