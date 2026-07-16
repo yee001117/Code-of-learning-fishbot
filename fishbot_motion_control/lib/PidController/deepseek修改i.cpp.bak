@@ -1,0 +1,75 @@
+#include "PidController.h"
+#include "Arduino.h"
+
+PidController::PidController(float kp, float ki, float kd)
+{
+    kp_ = kp;
+    ki_ = ki;
+    kd_ = kd;
+}
+
+float PidController::update(float current, float dt)
+{
+    if (dt <= 0.0f) return 0.0f;
+
+    error_ = target_ - current;
+
+    float p_term = kp_ * error_;
+
+    error_sum_ += ki_ * error_ * dt;
+    if (error_sum_ > intergral_up_)   error_sum_ = intergral_up_;
+    if (error_sum_ < -intergral_up_)  error_sum_ = -intergral_up_;
+
+    derror_ = (error_ - prev_error_) / dt;
+    prev_error_ = error_;
+
+    float output = p_term + error_sum_ + (kd_ * derror_);
+
+    if (output > out_max_)
+    {
+        output = out_max_;
+        if (ki_ * error_ > 0) error_sum_ -= ki_ * error_ * dt;
+    }
+    else if (output < out_min_)
+    {
+        output = out_min_;
+        if (ki_ * error_ < 0) error_sum_ -= ki_ * error_ * dt;
+    }
+
+    return output;
+}
+
+void PidController::update_target(float target)
+{
+    target_ = target;
+}
+
+void PidController::update_pid(float kp, float ki, float kd)
+{
+    kp_ = kp;
+    ki_ = ki;
+    kd_ = kd;
+}
+
+void PidController::reset()
+{
+    error_sum_  = 0.0f;
+    prev_error_ = 0.0f;
+    error_      = 0.0f;
+    derror_     = 0.0f;
+    kp_ = ki_ = kd_ = 0.0f;
+    intergral_up_ = 2500.0f;
+    out_max_ = 0.0f;
+    out_min_ = 0.0f;
+}
+
+void PidController::out_limit(float min, float max)
+{
+    out_min_ = min;
+    out_max_ = max;
+}
+
+void PidController::set_integral_limit(float limit)
+{
+    intergral_up_ = limit;
+}
